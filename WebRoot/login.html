@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--查阅代码前请阅读ReadMe文件夹下的内容-->
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <!--响应式设计-->
+    <link rel="stylesheet" type="text/css" href="css/narrowLayout.css"
+          media="screen and (max-width:1200px)"/> <!--屏幕在1200以下!-->
+    <link rel="stylesheet" type="text/css" href="css/wideLayout.css"
+          media="screen and (min-width:1200px)"/> <!--屏幕在1200以上-->
+    <!--jQuery的引入-->
+    <script type="text/javascript" src="jquery/jquery.js"></script>
+    <!--easing动画插件的引入-->
+    <script type="text/javascript" src="jquery/jquery.easing.js"></script>
+    <!--script的引入-->
+
+    <script type="text/javascript" src="js/result.js"></script>
+</head>
+<body style="background: white">
+    <!--第一部分开始-->
+    <div id="first_Module">
+        <div class="content">
+            <div class="logo">
+                <img src="image/login_logo.png" alt="">
+            </div>
+            <h2>欢迎登录</h2>
+            <div class="right">
+                <div class="ico">
+                </div>
+                <a href="#">登录页面,调查问卷</a>
+            </div>
+        </div>
+    </div>
+    <!--第一部分结束-->
+    <!--第二部分开始-->
+    <div id="second_Module">
+        <div class="con">
+            <div class="ico">
+            </div>
+            <p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《京东隐私政策》已上线，将更有利于保护您的个人隐私。</p>
+        </div>
+    </div>
+    <!--第二部分结束-->
+    <!--第三部分开始-->
+    <div id="third">
+        <div class="con">
+            <div class="login_form">
+                <form action="">
+                    <div class="one">
+                        <div class="ico"></div>
+                        <p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+                    </div>
+                    <ul class="menu">
+                        <li><p style="font-weight: 600;color: #E4393C" id="smdl">扫码登录</p></li>
+                        <li><p id="zhdl">账户登录</p></li>
+                    </ul>
+                    <!--第三部分区域(扫码登录)-->
+                    <div class="mc">
+                        <div class="ewm">
+                            <div class="left">
+                                <img src="image/show.jpg" alt="">
+                            </div>
+                            <div class="right">
+                                <img src="image/phone-orange.png" alt="">
+                            </div>
+                        </div>
+                        <div class="link">
+                            <p style="margin-left: 55px;">打开</p><a href="#">手机京东</a>
+                            <p style="margin-left: 10px;">扫描二维码</p>
+                        </div>
+                        <!--免输入/更快/更安全-->
+                        <ul class="mgg">
+                            <li>
+                                <div class="ico"></div>
+                                <p>免输入</p>
+                            </li>
+                            <li>
+                                <div class="ico" style="background: url(image/qr-coagent.png)no-repeat -27px"></div>
+                                <p>更快</p>
+                            </li>
+                            <li>
+                                <div class="ico" style="background: url(image/qr-coagent.png)no-repeat -55px"></div>
+                                <p>更安全</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--第三部分区域(账户登录)-->
+                    <div class="mc_1" style="display: none">
+                        <form action="">
+                            <div class="text">
+                                <div class="ico">
+
+                                </div>
+                                <input type="text" placeholder="邮箱/用户名/已验证手机" class="text_input">
+                            </div>
+                            <div class="text_1">
+                                <div class="ico" style="background: url(image/pwd-icons-new.png) no-repeat -48px 0px">
+
+                                </div>
+                                <input type="password" placeholder="密码" class="text_input">
+                            </div>
+                            <!--忘记密码模块开始-->
+                            <div class="forget_password">
+                                <a href="">忘记密码</a>
+                            </div>
+                            <!--忘记密码模块结束-->
+                            <!--登录按钮开始-->
+                            <div class="login_button">
+                                <input type="submit" value="登录" class="btn">
+                            </div>
+                            <!--登录按钮结束-->
+                        </form>
+                    </div>
+                    <!--第三部分区域结束-->
+                    <!--第四部分开始-->
+                    <div class="footed">
+                        <ul>
+                            <li>
+                                <div class="ico" >
+
+                                </div>
+                                <a href="">QQ</a>
+                                <span>|</span>
+                            </li>
+                            <li>
+                                <div class="ico" style="left: 0px;background: url(image/QQ-weixin.png) no-repeat -20px">
+
+                                </div>
+                                <a href="" style="left: 20px">微信</a>
+                            </li>
+                            <li style="position: absolute;right: 20px">
+                                <div class="ico" style="left: 0px;background: url(image/pwd-icons-new.png) no-repeat -103px -73px">
+                                </div>
+                                <a href="" style="left: 20px;font-size: 14px;color: red">立即注册</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--第四部分结束-->
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--第三部分结束-->
+    <!--第四部分开始-->
+    <div id="fourth">
+        <div class="con">
+            <ul>
+                <li style="margin-left: 100px">
+                    <a href="#">关于我们 |</a>
+                </li>
+                <li>
+                    <a href="#">联系我们 |</a>
+                </li>
+                <li>
+                    <a href="#">人才招聘 |</a>
+                </li>
+                <li>
+                    <a href="#">商家入驻 |</a>
+                </li>
+                <li>
+                    <a href="#">广告服务 |</a>
+                </li>
+                <li>
+                    <a href="">手机京东 |</a>
+                </li>
+                <li>
+                    <a href="">友情链接 |</a>
+                </li>
+                <li>
+                    <a href="">销售联盟 |</a>
+                </li>
+                <li>
+                    <a href="">京东社区 |</a>
+                </li>
+                <li>
+                    <a href="#">京东公益 |</a>
+                </li>
+                <li style="width: 80px">
+                    <a href="#">English Site</a>
+                </li>
+            </ul>
+            <br><br>
+            <div class="copy">
+                <p>Copyright © 2004-2018  京东JD.com 版权所有</p>
+            </div>
+
+        </div>
+    </div>
+    <!--第四部分结束-->
+
+
+</body>
+</html>
